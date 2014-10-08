@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91FF1D4119E4A31800EE9ACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF1D4019E4A31800EE9ACD /* main.m */; };
+		91FF1D4419E4A31800EE9ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF1D4319E4A31800EE9ACD /* AppDelegate.m */; };
+		91FF1D4719E4A31800EE9ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF1D4619E4A31800EE9ACD /* ViewController.m */; };
+		91FF1D4A19E4A31800EE9ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FF1D4819E4A31800EE9ACD /* Main.storyboard */; };
+		91FF1D4C19E4A31800EE9ACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FF1D4B19E4A31800EE9ACD /* Images.xcassets */; };
+		91FF1D4F19E4A31800EE9ACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91FF1D4D19E4A31800EE9ACD /* LaunchScreen.xib */; };
+		91FF1D5B19E4A31800EE9ACD /* FlipCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF1D5A19E4A31800EE9ACD /* FlipCardsTests.m */; };
+		91FF1D6819E5756E00EE9ACD /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF1D6719E5756E00EE9ACD /* Employee.m */; };
+		91FF1D6B19E5806800EE9ACD /* employees.json in Resources */ = {isa = PBXBuildFile; fileRef = 91FF1D6919E5806800EE9ACD /* employees.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91FF1D5519E4A31800EE9ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FF1D3319E4A31800EE9ACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FF1D3A19E4A31800EE9ACD;
+			remoteInfo = FlipCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91FF1D3B19E4A31800EE9ACD /* FlipCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FF1D3F19E4A31800EE9ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FF1D4019E4A31800EE9ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91FF1D4219E4A31800EE9ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91FF1D4319E4A31800EE9ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91FF1D4519E4A31800EE9ACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91FF1D4619E4A31800EE9ACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91FF1D4919E4A31800EE9ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91FF1D4B19E4A31800EE9ACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91FF1D4E19E4A31800EE9ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		91FF1D5419E4A31800EE9ACD /* FlipCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FF1D5919E4A31800EE9ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FF1D5A19E4A31800EE9ACD /* FlipCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipCardsTests.m; sourceTree = "<group>"; };
+		91FF1D6619E5756E00EE9ACD /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Employee.h; path = ../Employee.h; sourceTree = "<group>"; };
+		91FF1D6719E5756E00EE9ACD /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Employee.m; path = ../Employee.m; sourceTree = "<group>"; };
+		91FF1D6919E5806800EE9ACD /* employees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employees.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FF1D3819E4A31800EE9ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FF1D5119E4A31800EE9ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FF1D3219E4A31800EE9ACD = {
+			isa = PBXGroup;
+			children = (
+				91FF1D3D19E4A31800EE9ACD /* FlipCards */,
+				91FF1D5719E4A31800EE9ACD /* FlipCardsTests */,
+				91FF1D3C19E4A31800EE9ACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FF1D3C19E4A31800EE9ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FF1D3B19E4A31800EE9ACD /* FlipCards.app */,
+				91FF1D5419E4A31800EE9ACD /* FlipCardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FF1D3D19E4A31800EE9ACD /* FlipCards */ = {
+			isa = PBXGroup;
+			children = (
+				91FF1D6619E5756E00EE9ACD /* Employee.h */,
+				91FF1D6719E5756E00EE9ACD /* Employee.m */,
+				91FF1D4219E4A31800EE9ACD /* AppDelegate.h */,
+				91FF1D4319E4A31800EE9ACD /* AppDelegate.m */,
+				91FF1D4519E4A31800EE9ACD /* ViewController.h */,
+				91FF1D4619E4A31800EE9ACD /* ViewController.m */,
+				91FF1D4819E4A31800EE9ACD /* Main.storyboard */,
+				91FF1D4B19E4A31800EE9ACD /* Images.xcassets */,
+				91FF1D4D19E4A31800EE9ACD /* LaunchScreen.xib */,
+				91FF1D3E19E4A31800EE9ACD /* Supporting Files */,
+			);
+			path = FlipCards;
+			sourceTree = "<group>";
+		};
+		91FF1D3E19E4A31800EE9ACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91FF1D3F19E4A31800EE9ACD /* Info.plist */,
+				91FF1D4019E4A31800EE9ACD /* main.m */,
+				91FF1D6919E5806800EE9ACD /* employees.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91FF1D5719E4A31800EE9ACD /* FlipCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FF1D5A19E4A31800EE9ACD /* FlipCardsTests.m */,
+				91FF1D5819E4A31800EE9ACD /* Supporting Files */,
+			);
+			path = FlipCardsTests;
+			sourceTree = "<group>";
+		};
+		91FF1D5819E4A31800EE9ACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91FF1D5919E4A31800EE9ACD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FF1D3A19E4A31800EE9ACD /* FlipCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FF1D5E19E4A31800EE9ACD /* Build configuration list for PBXNativeTarget "FlipCards" */;
+			buildPhases = (
+				91FF1D3719E4A31800EE9ACD /* Sources */,
+				91FF1D3819E4A31800EE9ACD /* Frameworks */,
+				91FF1D3919E4A31800EE9ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipCards;
+			productName = FlipCards;
+			productReference = 91FF1D3B19E4A31800EE9ACD /* FlipCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FF1D5319E4A31800EE9ACD /* FlipCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FF1D6119E4A31800EE9ACD /* Build configuration list for PBXNativeTarget "FlipCardsTests" */;
+			buildPhases = (
+				91FF1D5019E4A31800EE9ACD /* Sources */,
+				91FF1D5119E4A31800EE9ACD /* Frameworks */,
+				91FF1D5219E4A31800EE9ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FF1D5619E4A31800EE9ACD /* PBXTargetDependency */,
+			);
+			name = FlipCardsTests;
+			productName = FlipCardsTests;
+			productReference = 91FF1D5419E4A31800EE9ACD /* FlipCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FF1D3319E4A31800EE9ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Solstice;
+				TargetAttributes = {
+					91FF1D3A19E4A31800EE9ACD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					91FF1D5319E4A31800EE9ACD = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 91FF1D3A19E4A31800EE9ACD;
+					};
+				};
+			};
+			buildConfigurationList = 91FF1D3619E4A31800EE9ACD /* Build configuration list for PBXProject "FlipCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FF1D3219E4A31800EE9ACD;
+			productRefGroup = 91FF1D3C19E4A31800EE9ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FF1D3A19E4A31800EE9ACD /* FlipCards */,
+				91FF1D5319E4A31800EE9ACD /* FlipCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FF1D3919E4A31800EE9ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF1D4A19E4A31800EE9ACD /* Main.storyboard in Resources */,
+				91FF1D6B19E5806800EE9ACD /* employees.json in Resources */,
+				91FF1D4F19E4A31800EE9ACD /* LaunchScreen.xib in Resources */,
+				91FF1D4C19E4A31800EE9ACD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FF1D5219E4A31800EE9ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FF1D3719E4A31800EE9ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF1D4719E4A31800EE9ACD /* ViewController.m in Sources */,
+				91FF1D6819E5756E00EE9ACD /* Employee.m in Sources */,
+				91FF1D4419E4A31800EE9ACD /* AppDelegate.m in Sources */,
+				91FF1D4119E4A31800EE9ACD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FF1D5019E4A31800EE9ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF1D5B19E4A31800EE9ACD /* FlipCardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FF1D5619E4A31800EE9ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FF1D3A19E4A31800EE9ACD /* FlipCards */;
+			targetProxy = 91FF1D5519E4A31800EE9ACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91FF1D4819E4A31800EE9ACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FF1D4919E4A31800EE9ACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91FF1D4D19E4A31800EE9ACD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FF1D4E19E4A31800EE9ACD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FF1D5C19E4A31800EE9ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		91FF1D5D19E4A31800EE9ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FF1D5F19E4A31800EE9ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlipCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91FF1D6019E4A31800EE9ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlipCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91FF1D6219E4A31800EE9ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlipCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipCards.app/FlipCards";
+			};
+			name = Debug;
+		};
+		91FF1D6319E4A31800EE9ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlipCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipCards.app/FlipCards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FF1D3619E4A31800EE9ACD /* Build configuration list for PBXProject "FlipCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FF1D5C19E4A31800EE9ACD /* Debug */,
+				91FF1D5D19E4A31800EE9ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FF1D5E19E4A31800EE9ACD /* Build configuration list for PBXNativeTarget "FlipCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FF1D5F19E4A31800EE9ACD /* Debug */,
+				91FF1D6019E4A31800EE9ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FF1D6119E4A31800EE9ACD /* Build configuration list for PBXNativeTarget "FlipCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FF1D6219E4A31800EE9ACD /* Debug */,
+				91FF1D6319E4A31800EE9ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FF1D3319E4A31800EE9ACD /* Project object */;
+}
